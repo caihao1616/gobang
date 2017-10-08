@@ -1,0 +1,15 @@
+@import "./shared.css";
+
+.panel {
+    width: calc(var(--cell-length) * var(--panel-size));
+    border: 2px solid black;
+    margin: 0 auto;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+

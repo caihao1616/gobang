@@ -1,0 +1,23 @@
+@import "./shared.css";
+
+.cell {
+    box-sizing: border-box;
+    float: left;
+    height: var(--cell-length);
+    width: var(--cell-length);
+    border: var(--cell-border-width) solid black;
+}
+
+.piece {
+    margin: calc((var(--cell-length) - var(--piece-radius) - var(--cell-border-width) * 2) / 2) auto;
+    width: var(--piece-radius);
+    height: var(--piece-radius);
+    border-radius: calc(var(--piece-radius) / 2);
+    &.white {
+        background: white;
+    }
+
+    &.black {
+        background: black;
+    }
+}

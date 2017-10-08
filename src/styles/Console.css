@@ -1,0 +1,9 @@
+@import "./shared.css";
+
+.console {
+    width: calc(var(--cell-length) * var(--panel-size));
+    margin: 15px auto;
+    & .button {
+        margin-right: 10px;
+    }
+}

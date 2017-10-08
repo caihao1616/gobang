@@ -1,0 +1,6 @@
+:root {
+    --panel-size: 15;
+    --cell-length: 50px;
+    --cell-border-width: 1px;
+    --piece-radius: 44px;
+}

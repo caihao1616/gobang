@@ -1,0 +1,43 @@
+.Cell__cell___3Bmmo {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.Cell__piece___1SyyP {
+    margin: 2px auto;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px
+}
+
+.Cell__piece___1SyyP.Cell__white___2u1vS {
+    background: white;
+}
+
+.Cell__piece___1SyyP.Cell__black___18s9- {
+    background: black;
+}.Panel__panel___2udOk {
+    width: 750px;
+    border: 2px solid black;
+    margin: 0 auto
+}
+.Panel__panel___2udOk:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.Console__console___3xXQ9 {
+    width: 750px;
+    margin: 15px auto
+}
+.Console__console___3xXQ9 .Console__button___22PwI {
+    margin-right: 10px;
+}
+/*# sourceMappingURL=bundle.css.map*/
