@@ -1,0 +1,25 @@
+@import "./shared.css";
+
+.header {
+    width: 100%;
+    padding: 0 calc(var(--cell-length) / 2);
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.label {
+    float: left;
+    font-size: 16px;
+    font-weight: 600;
+    color: #474747;
+    line-height: var(--piece-radius);
+}
+
+.piece {
+    float: left;
+    margin-left: 15px;
+    @apply --stone-style;
+}

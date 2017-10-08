@@ -1,8 +1,9 @@
 @import "./shared.css";
 
 .console {
-    width: calc(var(--cell-length) * var(--panel-size));
-    margin: 15px auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px calc(var(--cell-length) / 2);
     & .button {
         margin-right: 10px;
     }

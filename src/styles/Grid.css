@@ -1,0 +1,19 @@
+@import "./shared.css";
+
+.grid {
+    width: 100%;
+    border: var(--grid-border-width) solid black;
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.square {
+    box-sizing: border-box;
+    float: left;
+    width: var(--cell-length);
+    height: var(--cell-length);
+    border: var(--grid-border-width) solid var(--grid-border-color);
+}

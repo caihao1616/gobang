@@ -1,6 +1,29 @@
 :root {
+    /* Size */
     --panel-size: 15;
     --cell-length: 50px;
-    --cell-border-width: 1px;
     --piece-radius: 44px;
+
+    /* Grid */
+    --grid-border-width: 1px;
+    --grid-border-color: #8f6338;
+
+    /* Imaegs */
+    --white-stone-image: url("img/white.png");
+    --black-stone-image: url("img/black.png");
+
+    /* Stone Style Snippet */
+    --stone-style {
+        width: var(--piece-radius);
+        height: var(--piece-radius);
+
+        &.white {
+            background-image: var(--white-stone-image);
+            background-size: cover;
+        }
+        &.black {
+            background: var(--black-stone-image);
+            background-size: cover;
+        }
+    }
 }

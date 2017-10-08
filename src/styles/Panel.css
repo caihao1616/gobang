@@ -1,9 +1,11 @@
 @import "./shared.css";
 
 .panel {
-    width: calc(var(--cell-length) * var(--panel-size));
-    border: 2px solid black;
-    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
     &:after {
         content: "";
         display: table;

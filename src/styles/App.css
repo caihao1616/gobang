@@ -1,0 +1,6 @@
+@import "./shared.css";
+
+.app {
+    width: calc(var(--cell-length) * var(--panel-size));
+    margin: 0 auto;
+}

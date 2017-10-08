@@ -1,0 +1,8 @@
+@import "./shared.css";
+
+.board {
+    box-sizing: border-box;
+    padding: calc(var(--cell-length) / 2);
+    width: 100%;
+    position: relative;
+}
